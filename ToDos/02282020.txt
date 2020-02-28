@@ -10,6 +10,7 @@
     d. Same 'c', but speify the value of CIDR blcok in variable.tf file.
     e. Create a AMI Linux EC2 t2.micro instace with a Secuirity group created in 'a'
     f. Change the program in 'e' to read the secuirty group value from variables.tf file.
+    g. For 'd', pass the CIDR value from cpommand line instead of variables.tf file. 
 
 Note :- to pcikup values from variables.tf file, you need to create the variables.tf file and specify values there.
 
