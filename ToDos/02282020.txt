@@ -1,0 +1,15 @@
+1. Write a Terrafrom (tf) program to dispaly your name in output.
+
+2. Write a tf program to display the name given variables.tf file.
+
+
+3. Write tf prgorams to perform follwoing tasks 
+    a. Create a security group to accept SSH connection from any IPv4 Address
+    b. Cretae a security group to accept SSH connection only from the IPv4 address starting with 9. i.e 9.x.x.x addresses.
+    c. Create a VPC with a CIDR bloc 10.10.0.0/16 and display its id
+    d. Same 'c', but speify the value of CIDR blcok in variable.tf file.
+    e. Create a AMI Linux EC2 t2.micro instace with a Secuirity group created in 'a'
+    f. Change the program in 'e' to read the secuirty group value from variables.tf file.
+
+Note :- to pcikup values from variables.tf file, you need to create the variables.tf file and specify values there.
+
