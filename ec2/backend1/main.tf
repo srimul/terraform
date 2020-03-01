@@ -14,6 +14,7 @@ terraform {
   }
 }
 
+# Creation of Security group for ssh with default port
 resource "aws_security_group" "allow_ssh" {
   name = "sg01FromTfModifiedS3Backend"
   description = "Allow ssh inbound traffic"
